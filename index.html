@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EduSphere - ابدأ رحلتك التعليمية</title>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav>
+  <a href="#home" class="logo">EduSphere</a>
+  <ul class="nav-links">
+    <li><a href="#home">الرئيسية</a></li>
+    <li><a href="#courses">الكورسات</a></li>
+    <li><a href="#specs">التخصصات</a></li>
+    <li><a href="#features">مميزاتنا</a></li>
+    <li><a href="#home" class="nav-cta">ابدأ الآن</a></li>
+  </ul>
+  <div class="hamburger" id="hamburgerBtn">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="home">
+  <div class="hero-content">
+    <div class="hero-badge">منصة تعليمية متكاملة</div>
+    <h1>ابدأ <span class="highlight">رحلتك</span> التعليمية اليوم</h1>
+    <p class="hero-desc">منصة تعليمية تساعدك على تعلم المهارات المطلوبة بسهولة ومن أي مكان في العالم مع مدربين محترفين</p>
+    <div class="hero-actions">
+      <a href="#courses" class="btn-primary">ابدأ التعلم الآن ←</a>
+      <a href="#features" class="btn-secondary">▶ اكتشف المميزات</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat">
+        <span class="stat-num">+5K</span>
+        <span class="stat-label">طالب نشط</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">+120</span>
+        <span class="stat-label">كورس متاح</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">98%</span>
+        <span class="stat-label">رضا المتعلمين</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-visual">
+    <div class="hero-card">
+      <div class="floating-badge fb-top"><i class="fa-solid fa-graduation-cap" style="color: rgb(0, 0, 0);"></i> شهادة جديدة!</div>
+      <div class="card-header">
+        <div class="card-avatar"><i class="fa-solid fa-user" style="color: rgb(0, 0, 0);"></i></div>
+        <div class="card-info">
+          <h4>أحمد محمد</h4>
+          <p>متعلم نشط • 3 كورسات</p>
+        </div>
+      </div>
+      <div class="course-preview">
+        <h5>UI/UX Design</h5>
+        <div class="progress-bar">
+          <div class="progress-fill" id="pb1"></div>
+        </div>
+        <div class="progress-text"><span>التقدم</span><span>68%</span></div>
+      </div>
+      <div class="course-preview">
+        <h5>Flutter Development</h5>
+        <div class="progress-bar">
+          <div class="progress-fill" id="pb2"></div>
+        </div>
+        <div class="progress-text"><span>التقدم</span><span>42%</span></div>
+      </div>
+      <div class="floating-badge fb-bottom"><i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>4.9 تقييم ممتاز</div>
+    </div>
+  </div>
+</section>
+
+<!-- SPECIALIZATIONS -->
+<section id="specs">
+  <div class="section-header reveal">
+    <div class="section-label">◆ تخصصاتنا</div>
+    <h2 class="section-title">اختر مسارك التعليمي</h2>
+    <p class="section-subtitle">تخصصات مختارة بعناية لتواكب متطلبات سوق العمل</p>
+  </div>
+  <div class="specs-grid">
+    <div class="spec-card reveal">
+      <div class="card-overlay"></div>
+      <div class="spec-icon-bg">
+        <div class="spec-icon"><img src="images/برمجه.jpg" alt="البرمجة" /></div>
+      </div>
+      <div class="spec-title">البرمجة</div>
+      <p class="spec-desc">تعلم لغات البرمجة الحديثة وبناء تطبيقات احترافية</p>
+      <div class="spec-count">+48 كورس متاح</div>
+    </div>
+    <div class="spec-card reveal">
+      <div class="card-overlay"></div>
+      <div class="spec-icon-bg">
+        <div class="spec-icon"><img src="images/التصميم.png" alt="التصميم" /></div>
+      </div>
+      <div class="spec-title">التصميم</div>
+      <p class="spec-desc">UI/UX وجرافيك ديزاين وكل ما يتعلق بالتصميم الاحترافي</p>
+      <div class="spec-count">+35 كورس متاح</div>
+    </div>
+    <div class="spec-card reveal">
+      <div class="card-overlay"></div>
+      <div class="spec-icon-bg">
+        <div class="spec-icon"><img src="images/التسويق الرقمي.webp" alt="التسويق الرقمي" /></div>
+      </div>
+      <div class="spec-title">التسويق الرقمي</div>
+      <p class="spec-desc">استراتيجيات التسويق الرقمي والإعلانات وإدارة المنصات</p>
+      <div class="spec-count">+29 كورس متاح</div>
+    </div>
+  </div>
+</section>
+
+<!-- COURSES -->
+<section id="courses">
+  <div class="section-header reveal">
+    <div class="section-label">◆ الكورسات</div>
+    <h2 class="section-title">الكورسات الأكثر طلبًا</h2>
+    <p class="section-subtitle">انضم إلى آلاف المتعلمين في أبرز كورساتنا</p>
+  </div>
+  <div class="courses-grid">
+    <div class="course-card reveal">
+      <div class="course-thumb thumb-1">
+        <img src="images/ui-ux.jpg" alt="UI/UX Design" />
+        <span class="course-badge">الأكثر مشاهدة</span>
+      </div>
+      <div class="course-body">
+        <div class="course-meta">
+          <span><i class="fa-regular fa-clock" style="color: #e0e0e0;"></i> 24 ساعة</span>
+          <span><i class="fa-solid fa-user-group" style="color: rgb(0, 0, 0);"></i> 1,240 طالب</span>
+        </div>
+        <div class="course-title">UI/UX Design</div>
+        <p class="course-desc">تعلم أساسيات تصميم واجهات المستخدم وتجربة المستخدم من الصفر حتى الاحتراف</p>
+        <div class="course-footer">
+          <div class="course-rating">★ 4.9 <span style="color:var(--text-light);font-weight:400">(320 تقييم)</span></div>
+          <a href="#" class="course-btn">اشترك الآن</a>
+        </div>
+      </div>
+    </div>
+    <div class="course-card reveal">
+      <div class="course-thumb thumb-2">
+        <img src="images/Flutter.png" alt="Flutter Development" />
+        <span class="course-badge" style="background:var(--accent)">جديد</span>
+      </div>
+      <div class="course-body">
+        <div class="course-meta">
+          <span><i class="fa-regular fa-clock" style="color: #e0e0e0;"></i> 32 ساعة</span>
+          <span><i class="fa-solid fa-user-group" style="color: rgb(0, 0, 0);"></i> 890 طالب</span>
+        </div>
+        <div class="course-title">Flutter Development</div>
+        <p class="course-desc">بناء تطبيقات موبايل احترافية لـ iOS وAndroid باستخدام Flutter ولغة Dart</p>
+        <div class="course-footer">
+          <div class="course-rating">★ 4.8 <span style="color:var(--text-light);font-weight:400">(210 تقييم)</span></div>
+          <a href="#" class="course-btn">اشترك الآن</a>
+        </div>
+      </div>
+    </div>
+    <div class="course-card reveal">
+      <div class="course-thumb thumb-3">
+        <img src="images/Marketing.jpg" alt="Digital Marketing" />
+      </div>
+      <div class="course-body">
+        <div class="course-meta">
+          <span><i class="fa-regular fa-clock" style="color: #e0e0e0;"></i> 18 ساعة</span>
+          <span><i class="fa-solid fa-user-group" style="color: rgb(0, 0, 0);"></i> 2,100 طالب</span>
+        </div>
+        <div class="course-title">Digital Marketing Basics</div>
+        <p class="course-desc">أساسيات التسويق الرقمي والسوشيال ميديا وإعلانات جوجل لتنمية أعمالك</p>
+        <div class="course-footer">
+          <div class="course-rating">★ 4.9 <span style="color:var(--text-light);font-weight:400">(480 تقييم)</span></div>
+          <a href="#" class="course-btn">اشترك الآن</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section id="features">
+  <div class="section-header reveal">
+    <div class="section-label">◆ لماذا EduSphere</div>
+    <h2 class="section-title">مميزاتنا التي تميزنا</h2>
+    <p class="section-subtitle">نوفر لك بيئة تعليمية متكاملة تضمن نجاحك</p>
+  </div>
+  <div class="features-grid">
+    <div class="feature-card reveal">
+      <div class="feature-icon"><i class="fa-solid fa-earth-americas" style="color: rgb(124, 180, 225);"></i></div>
+      <div class="feature-title">تعلم أونلاين بسهولة</div>
+      <p class="feature-desc">تعلم في أي وقت ومن أي مكان بدون قيود مع محتوى تعليمي عالي الجودة يمكن الوصول إليه على أي جهاز</p>
+    </div>
+    <div class="feature-card reveal">
+      <div class="feature-icon"><i class="fa-solid fa-graduation-cap" style="color: rgb(0, 0, 0);"></i></div>
+      <div class="feature-title">مدربين محترفين</div>
+      <p class="feature-desc">تعلم على يد خبراء ومتخصصين في مجالاتهم لديهم سنوات من الخبرة العملية في سوق العمل</p>
+    </div>
+    <div class="feature-card reveal">
+      <div class="feature-icon"><i class="fa-solid fa-award" style="color: rgb(255, 212, 59);"></i></div>
+      <div class="feature-title">شهادات إتمام</div>
+      <p class="feature-desc">احصل على شهادة إتمام معتمدة عند إنهاء كل كورس لتعزيز سيرتك الذاتية ومسيرتك المهنية</p>
+    </div>
+  </div>
+</section>
+
+<!-- CTA BANNER -->
+<section class="cta-section">
+  <h2>جاهز لتبدأ رحلتك التعليمية؟</h2>
+  <p>انضم لآلاف المتعلمين وطور مهاراتك اليوم بدون أي تأخير</p>
+  <a href="#home" class="btn-white">ابدأ التعلم مجانًا ←</a>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-top">
+    <div class="footer-brand">
+      <a href="#home" class="logo">EduSphere</a>
+      <p>منصة تعليمية متكاملة تساعدك على اكتساب المهارات المطلوبة في سوق العمل بأسهل الطرق وأفضل المدربين.</p>
+    </div>
+    <div class="footer-col">
+      <h4>روابط سريعة</h4>
+      <ul>
+        <li><a href="#home">الصفحة الرئيسية</a></li>
+        <li><a href="#courses">الكورسات</a></li>
+        <li><a href="#specs">التخصصات</a></li>
+        <li><a href="#features">مميزاتنا</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>التخصصات</h4>
+      <ul>
+        <li><a href="#specs">البرمجة</a></li>
+        <li><a href="#specs">التصميم</a></li>
+        <li><a href="#specs">التسويق الرقمي</a></li>
+        <li><a href="#courses">تطوير التطبيقات</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 EduSphere. جميع الحقوق محفوظة.</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
